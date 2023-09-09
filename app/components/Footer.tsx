@@ -4,8 +4,8 @@ import Link from "next/link";
 
 const Footer = () => {
     return (
-        <footer className="text-gray-600 body-font absolute bottom-0 w-full bg-third-color">
-            <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+        <footer className="text-gray-600 body-font fixed bottom-0 w-full bg-third-color">
+            <div className="container px-5 py-2 mx-auto flex items-center sm:flex-row flex-col">
                 <Link href="/" className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
                     <Image alt="logo" src="/images/logo.png" height="50" width="50" className='rounded-full' />
                     <span className="ml-3 text-xl">Taskify</span>
