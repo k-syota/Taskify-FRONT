@@ -6,7 +6,7 @@ import { useCallback, useState } from 'react'
 
 type AuthenticationType = "LOGIN" | "REGISTER"
 
-export default function Home() {
+const Home = () => {
 
   // ログインと登録の状態を管理するためのuseStateフック
   const [authenticationType, setAuthenticationType] = useState<AuthenticationType>('LOGIN')
@@ -116,3 +116,5 @@ export default function Home() {
     </>
   )
 }
+
+export default Home

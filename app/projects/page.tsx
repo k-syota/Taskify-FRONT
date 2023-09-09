@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import Link from 'next/link'
 
 
-export default function Tasks() {
+const Projects = () => {
     return (
         <>
             <Header />
@@ -94,3 +94,5 @@ export default function Tasks() {
         </>
     )
 }
+
+export default Projects
