@@ -83,7 +83,11 @@ export default function Tasks() {
                             </div>
                         </Link>
                     </div>
-                    <button className="flex mx-auto mt-16 text-white bg-primary-color border-0 py-2 px-8 focus:outline-none hover:bg-secondary-color rounded text-lg">プロジェクト作成</button>
+                    <button
+                        className="flex mx-auto mt-16 text-white bg-primary-color border-0 py-2 px-8 
+                        focus:outline-none hover:bg-secondary-color transition-all duration-500 ease-out rounded text-lg">
+                        プロジェクト作成
+                    </button>
                 </div>
             </section>
             <Footer />
