@@ -5,7 +5,7 @@ import { BiUserCircle } from "react-icons/bi"
 
 const Header = () => {
     return (
-        <header className="text-gray-600 body-font bg-third-color w-full md:fixed">
+        <header className="text-gray-600 body-font bg-third-color w-full">
             <div className="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
                 <Link href="/" className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
                     <Image alt="logo" src="/images/logo.png" height="50" width="50" className='rounded-full' />
