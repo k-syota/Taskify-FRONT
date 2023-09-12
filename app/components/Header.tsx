@@ -12,10 +12,8 @@ const Header = () => {
                     <span className="ml-3 text-xl">Taskify</span>
                 </Link>
                 <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-                    <a className="mr-5 hover:text-gray-900">First Link</a>
-                    <a className="mr-5 hover:text-gray-900">Second Link</a>
-                    <a className="mr-5 hover:text-gray-900">Third Link</a>
-                    <a className="mr-5 hover:text-gray-900">Fourth Link</a>
+                    <Link href="/" className="mr-5 hover:text-gray-900 cursor-pointer">プロジェクト一覧</Link>
+                    <Link href="/" className="mr-5 hover:text-gray-900 cursor-pointer">タスク一覧</Link>
                 </nav>
                 <button className="inline-flex items-center bg-primary-color border-0 py-1 px-3 ml-1 transition-all duration-500 ease-out
                             focus:outline-none hover:bg-secondary-color rounded text-white mt-4 md:mt-0">マイページ
